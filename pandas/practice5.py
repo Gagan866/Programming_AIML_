@@ -1,0 +1,31 @@
+import pandas as pd
+
+df = pd.read_csv("DataSets/titanic.csv",index_col=0)
+
+print(df.info())
+print("_____________________________________________")
+print(df.describe())
+print("_____________________________________________")
+print(df.head(10))
+
+print("_____________________________________________")
+print("Average age")
+age = pd.pivot_table(df,index="Sex",columns="Pclass",values="Age",aggfunc={"Age":["mean","max","min"]})
+print(age)
+print("_____________________________________________")
+print("Survived people count")
+survived = pd.pivot_table(df,index="Sex",columns="Pclass",values="Survived",aggfunc={"Survived":["sum","mean"]})
+print(survived)
+print("_____________________________________________")
+print("Total Ticket Price and avg based on class:")
+ticket_price = pd.pivot_table(df,index="Sex",columns="Pclass",values="Fare",aggfunc={"Fare":["sum","mean","max","min"]})
+print(ticket_price)
+print("_____________________________________________")
+print("Siblings total")
+sib = pd.pivot_table(df,index="Sex",columns="Pclass",values="SibSp",aggfunc={"SibSp":["sum","mean","max","min","count"]})
+print(sib)
+print("_____________________________________________")
+print("Embarked total")
+emb = pd.pivot_table(df,index="Embarked",columns="Sex",values="Age",aggfunc="count",margins=True)
+print(emb)
+

@@ -1,0 +1,21 @@
+OrderID,Region,Product,Category,Sales,Quantity,Month
+1001,North,Laptop,Electronics ,55000,2,January
+1002,South,Phone,Electronics ,25000,5,January
+1003,East,Chair,Furniture,7000,4,January
+1004,West,Table,Furniture,15000,2,February
+1005,North,Laptop,Electronics ,60000,3,February
+1006,South,Sofa,Furniture,30000,1,February
+1007,East,Phone,Electronics ,22000,4,February
+1008,West,Chair,Furniture,8000,2,March
+1009,North,Tablet,Electronics ,15000,6,March
+1010,South,Laptop,Electronics ,58000,2,March
+1011,East,Sofa,Furniture,32000,2,March
+1012,West,Phone,Electronics ,24000,3,March
+1013,North,Chair,Furniture,9000,5,April
+1014,South,Tablet,Electronics ,16000,4,April
+1015,East,Laptop,Electronics ,61000,1,April
+1016,West,Sofa,Furniture,29000,3,April
+1017,North,Phone,Electronics ,26000,2,May
+1018,South,Table,Furniture,17000,2,May
+1019,East,Tablet,Electronics ,15500,3,May
+1020,West,Laptop,Electronics ,57000,1,May
