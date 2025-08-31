@@ -11,6 +11,7 @@ from sklearn.metrics import (
     accuracy_score)
 from sklearn.ensemble import RandomForestClassifier
 from scipy.stats.mstats import winsorize
+from sklearn.preprocessing import StandardScaler
 
 
 df = pd.read_csv("DataSets/breast-cancer.csv",index_col = 0)
