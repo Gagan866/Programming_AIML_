@@ -70,7 +70,7 @@ print(df_filled.isna().sum())
 # df_filled[["carat","depth","table","price","x","y","z"]] = np.where(df_filled[["carat","depth","table","price","x","y","z"]]>u_l,u_l,np.where(df_filled[["carat","depth","table","price","x","y","z"]]<l_l,l_l,df_filled[["carat","depth","table","price","x","y","z"]]))
 
 
-def winsorize_data(data,limits=(0.1,0.1)):
+def winsorize_data(data,limits=(0.01,0.01)):
     for col in data.select_dtypes(include=["float64"]):
          data.loc[:,col] = winsorize(df_filled[col], limits=limits)
     return data

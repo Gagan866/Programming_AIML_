@@ -60,3 +60,4 @@ if len(num) == 4 and len(set(num))>=2 :
     kapekar(num)
 else:
     print(" enter four digits , with atleast uniques")
+    
