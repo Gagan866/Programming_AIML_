@@ -39,11 +39,11 @@ for n in components_range:
 # Plot accuracy vs n_components
 plt.figure(figsize=(12,5))
 
-# plt.subplot(1,2,1)
-# plt.plot(components_range, accuracies, marker='o')
-# plt.xlabel("Number of PCA Components")
-# plt.ylabel("Test Accuracy")
-# plt.title("Accuracy vs Number of Components")
+plt.subplot(1,2,1)
+plt.plot(components_range, accuracies, marker='o')
+plt.xlabel("Number of PCA Components")
+plt.ylabel("Test Accuracy")
+plt.title("Accuracy vs Number of Components")
 
 plt.subplot(1,2,2)
 plt.plot(components_range, explained_variances, marker='o')

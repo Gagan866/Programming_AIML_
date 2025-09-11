@@ -57,7 +57,7 @@ for num_clusters in cluster_range:
     inertia_values.append(kmeans.inertia_)
     score = silhouette_score(scaled_df, cluster_preds, sample_size=500, random_state=42)
     silhouette_scores.append(score)
-    print(f"Clusters: {num_clusters}, Inertia: {kmeans.inertia_:.2f}, Silhouette Score: {score:.3f}")
+    print(f"Clusters: {num_clusters}, Inertia: {kmeans.inertia_}, Silhouette Score: {score:.3f}")
 
 # Plot inertia and silhouette scores
 fig, axes = plt.subplots(1, 2, figsize=(14, 5))

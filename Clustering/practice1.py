@@ -63,7 +63,7 @@ for k in k_values:
     
     score = silhouette_score(df_num1,labels,sample_size=500,random_state=42)
     scores.append(score)
-    print(f"k={k} , Silo = {score:.3f}")
+    print(f"k={k} , Silo = {score}")
     
    
 plt.figure(figsize=(8,5))
@@ -90,16 +90,16 @@ for k in k_values:
     
     score = silhouette_score(df_num1,labels,sample_size=500,random_state=42)
     sil_scores.append(score)
-    print(f"k = {k},inertia = {kmeans.inertia_:.2f,silo = {score:.3f}}")
+    print(f"k = {k},inertia = {kmeans.inertia_},silo = {score}")
     
     
-fig,ax = plt.subplots(1,2,figsize={14,5})
+# fig,ax = plt.subplots(1,2)
 
-ax[0].plot(k_values,inertias,marker="o")
-ax[0].grid(True)
+# ax[0].plot(k_values,inertias,marker="o")
+# ax[0].grid(True)
 
-ax[1].plot(k_values,sil_score,marker="o")    
-ax[1].grid(True)
+# ax[1].plot(k_values,sil_score,marker="o")    
+# ax[1].grid(True)
 
-plt.tight_layout()
-plt.show()
+# plt.tight_layout()
+# plt.show()
