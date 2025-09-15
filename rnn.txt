@@ -1,0 +1,95 @@
+#🎬 What is the IMDB dataset in Keras?
+
+# It’s a movie review dataset.
+
+# 25,000 training reviews + 25,000 testing reviews.
+
+# Each review is labeled:
+
+# 0 → Negative sentiment
+
+# 1 → Positive sentiment
+
+# So the task = sentiment analysis → can the model guess if a review is positive or negative?
+
+# 🛠️ But how are reviews stored?
+
+# 👉 In Keras, they are not raw text like:
+
+# “This movie was amazing! I loved the acting.”
+
+# Instead, they are already preprocessed:
+
+# Each review = a list of integers.
+
+# Each integer = the index of a word in a dictionary of common words.
+
+
+
+from tensorflow.keras.datasets import imdb
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Embedding, SimpleRNN, Dense
+
+import matplotlib.pyplot as plt
+
+# Load top 10,000 most frequent words
+(x_train, y_train), (x_test, y_test) = imdb.load_data(num_words=10000) #Keep only the 10,000 most frequent words in the dataset.
+print("First review (x_train[0]):", x_train[0][:20])  # first 20 words
+print("Label (y_train[0]):", y_train[0])
+
+
+print("Training samples:", len(x_train))
+print("First review (as integers):", x_train[0])
+print("Label (0=neg,1=pos):", y_train[0])
+
+
+# 👉 Neural networks need inputs of the same size in a batch.
+# They can’t handle “one row has 5 elements, another row has 250”.
+# We pick a fixed length (maxlen).
+# If a review is shorter → we add zeros at the beginning (or end) until it reaches maxlen.
+# If a review is longer → we cut it down to maxlen.
+
+maxlen = 200  # cut/pad each review to 200 words
+x_train = pad_sequences(x_train, maxlen=maxlen)
+x_test = pad_sequences(x_test, maxlen=maxlen)
+
+print("Shape of x_train:", x_train.shape)
+
+
+model = Sequential([
+    Embedding(input_dim=10000, output_dim=32, input_length=maxlen), #Embedding maps word indices → dense vectors.
+    SimpleRNN(32, return_sequences=True, activation="tanh"), # returns sequence to feed next RNN
+    SimpleRNN(16, activation="tanh"),  # last RNN returns only final state
+    Dense(64, activation='relu'),
+    Dense(32, activation='relu'),
+    Dense(1, activation="sigmoid")
+])
+
+
+model.compile(optimizer="adam",
+              loss="binary_crossentropy",
+              metrics=["accuracy"])
+
+
+history = model.fit(x_train, y_train,
+                    epochs=5,
+                    batch_size=64,
+                    validation_split=0.2)
+
+
+model.summary()
+
+
+loss, acc = model.evaluate(x_test, y_test)
+print(f"Test Accuracy: {acc:.2f}")
+
+
+plt.plot(history.history["accuracy"], label="train acc")
+plt.plot(history.history["val_accuracy"], label="val acc")
+plt.legend()
+plt.xlabel("Epochs")
+plt.ylabel("Accuracy")
+plt.show()
+
+

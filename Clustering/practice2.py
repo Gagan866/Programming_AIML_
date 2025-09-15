@@ -72,7 +72,7 @@ axes[1].plot(cluster_range, silhouette_scores, marker="o")
 axes[1].set_title('Silhouette Scores')
 axes[1].set_xlabel('Number of Clusters')
 axes[1].set_ylabel('Silhouette Score')
-axes[1].grid(True)
+axes[1].grid(True)  
 
 plt.tight_layout()
 plt.show()

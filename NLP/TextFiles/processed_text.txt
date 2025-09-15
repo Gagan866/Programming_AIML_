@@ -1,0 +1,91 @@
+Word	POS Tag	Description
+complete	JJ	Adjective
+settings	NNS	Noun, plural
+piece	NN	Noun, singular or mass
+every	DT	Determiner
+approach	NN	Noun, singular or mass
+limiting	VBG	Verb, gerund or present participle
+often	RB	Adverb
+conciseness	JJ	Adjective
+contain	NN	Noun, singular or mass
+writing	VBG	Verb, gerund or present participle
+crafting	VBG	Verb, gerund or present participle
+compelling	NN	Noun, singular or mass
+exercises	NNS	Noun, plural
+writer	VBP	Verb, non-3rd person singular present
+potent	JJ	Adjective
+focus	NN	Noun, singular or mass
+finishing	VBG	Verb, gerund or present participle
+message	NN	Noun, singular or mass
+small	JJ	Adjective
+still	RB	Adverb
+ultimately	RB	Adverb
+communicates	VBZ	Verb, 3rd person singular present
+academic	JJ	Adjective
+followed	VBD	Verb, past tense
+explore	RB	Adverb
+rather	RB	Adverb
+honed	VBD	Verb, past tense
+strengthening	VBG	Verb, gerund or present participle
+expression	NN	Noun, singular or mass
+within	IN	Preposition or subordinating conjunction
+trying	VBG	Verb, gerund or present participle
+impactful	JJ	Adjective
+forcing	VBG	Verb, gerund or present participle
+thought	JJ	Adjective
+avoiding	VBG	Verb, gerund or present participle
+works	JJ	Adjective
+goal	NN	Noun, singular or mass
+count	NN	Noun, singular or mass
+valuable	JJ	Adjective
+words	NNS	Noun, plural
+paragraph	NN	Noun, singular or mass
+best	JJS	Adjective, superlative
+concluding	VBG	Verb, gerund or present participle
+unnecessary	JJ	Adjective
+sense	NN	Noun, singular or mass
+closure	NN	Noun, singular or mass
+teaches	NNS	Noun, plural
+polished	VBD	Verb, past tense
+lesson	JJ	Adjective
+select	JJ	Adjective
+powerful	JJ	Adjective
+essential	JJ	Adjective
+forward	NN	Noun, singular or mass
+contests	NNS	Noun, plural
+structured	VBD	Verb, past tense
+must	MD	Modal
+supporting	VBG	Verb, gerund or present participle
+cover	NN	Noun, singular or mass
+narrow	JJ	Adjective
+topic	NN	Noun, singular or mass
+requires	VBZ	Verb, 3rd person singular present
+manner	JJR	Adjective, comparative
+ground	JJ	Adjective
+serve	NN	Noun, singular or mass
+idea	NN	Noun, singular or mass
+effectively	RB	Adverb
+information	NN	Noun, singular or mass
+narrative	JJ	Adjective
+brevity	NN	Noun, singular or mass
+demonstrating	VBG	Verb, gerund or present participle
+choose	JJ	Adjective
+convey	NNS	Noun, plural
+fluff	RB	Adverb
+much	JJ	Adjective
+word	NN	Noun, singular or mass
+prioritizing	VBG	Verb, gerund or present participle
+practice	NN	Noun, singular or mass
+sentence	NN	Noun, singular or mass
+precise	NN	Noun, singular or mass
+purpose	JJ	Adjective
+discipline	NN	Noun, singular or mass
+provides	VBZ	Verb, 3rd person singular present
+create	VBP	Verb, non-3rd person singular present
+details	NNS	Noun, plural
+clear	JJ	Adjective
+driving	VBG	Verb, gerund or present participle
+main	JJ	Adjective
+starting	VBG	Verb, gerund or present participle
+coherent	NN	Noun, singular or mass
+point	NN	Noun, singular or mass
