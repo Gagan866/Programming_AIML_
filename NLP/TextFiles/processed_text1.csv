@@ -1,0 +1,91 @@
+Unique Word,Stemmed Word,Stemmed POS Tag,Stemmed Description,Lemmatized Word,Lemmatized POS Tag,Lemmatized Description
+compelling,compel,NN,"['Noun, singular or mass']",compelling,VBG,"['Verb, gerund or present participle']"
+idea,idea,NN,"['Noun, singular or mass']",idea,NN,"['Noun, singular or mass']"
+powerful,power,NN,"['Noun, singular or mass']",powerful,JJ,['Adjective']
+create,creat,NN,"['Noun, singular or mass']",create,JJ,['Adjective']
+fluff,fluff,NN,"['Noun, singular or mass']",fluff,NN,"['Noun, singular or mass']"
+every,everi,NN,"['Noun, singular or mass']",every,DT,['Determiner']
+crafting,craft,NN,"['Noun, singular or mass']",crafting,NN,"['Noun, singular or mass']"
+exercises,exercis,NN,"['Noun, singular or mass']",exercise,NN,"['Noun, singular or mass']"
+select,select,JJ,['Adjective'],select,NN,"['Noun, singular or mass']"
+limiting,limit,NN,"['Noun, singular or mass']",limiting,VBG,"['Verb, gerund or present participle']"
+polished,polish,JJ,['Adjective'],polished,VBD,"['Verb, past tense']"
+forcing,forc,NN,"['Noun, singular or mass']",forcing,VBG,"['Verb, gerund or present participle']"
+count,count,NN,"['Noun, singular or mass']",count,NN,"['Noun, singular or mass']"
+finishing,finish,JJ,['Adjective'],finishing,VBG,"['Verb, gerund or present participle']"
+thought,thought,VBD,"['Verb, past tense']",thought,VBN,"['Verb, past participle']"
+topic,topic,NN,"['Noun, singular or mass']",topic,NN,"['Noun, singular or mass']"
+communicates,commun,NN,"['Noun, singular or mass']",communicates,NNS,"['Noun, plural']"
+effectively,effect,NN,"['Noun, singular or mass']",effectively,RB,['Adverb']
+paragraph,paragraph,NN,"['Noun, singular or mass']",paragraph,VBP,"['Verb, non-3rd person singular present']"
+goal,goal,NN,"['Noun, singular or mass']",goal,NN,"['Noun, singular or mass']"
+conciseness,concis,VBP,"['Verb, non-3rd person singular present']",conciseness,NN,"['Noun, singular or mass']"
+small,small,JJ,['Adjective'],small,JJ,['Adjective']
+must,must,MD,['Modal'],must,MD,['Modal']
+manner,manner,VB,"['Verb, base form']",manner,VB,"['Verb, base form']"
+best,best,JJS,"['Adjective, superlative']",best,JJS,"['Adjective, superlative']"
+piece,piec,NN,"['Noun, singular or mass']",piece,NN,"['Noun, singular or mass']"
+closure,closur,NN,"['Noun, singular or mass']",closure,NN,"['Noun, singular or mass']"
+essential,essenti,NN,"['Noun, singular or mass']",essential,JJ,['Adjective']
+information,inform,NN,"['Noun, singular or mass']",information,NN,"['Noun, singular or mass']"
+within,within,IN,['Preposition or subordinating conjunction'],within,IN,['Preposition or subordinating conjunction']
+expression,express,JJ,['Adjective'],expression,NN,"['Noun, singular or mass']"
+forward,forward,RB,['Adverb'],forward,RB,['Adverb']
+choose,choos,VBP,"['Verb, non-3rd person singular present']",choose,JJ,['Adjective']
+message,messag,NNS,"['Noun, plural']",message,NN,"['Noun, singular or mass']"
+driving,drive,VBP,"['Verb, non-3rd person singular present']",driving,VBG,"['Verb, gerund or present participle']"
+writing,write,JJ,['Adjective'],writing,VBG,"['Verb, gerund or present participle']"
+starting,start,NN,"['Noun, singular or mass']",starting,VBG,"['Verb, gerund or present participle']"
+demonstrating,demonstr,NN,"['Noun, singular or mass']",demonstrating,VBG,"['Verb, gerund or present participle']"
+ground,ground,NN,"['Noun, singular or mass']",ground,NN,"['Noun, singular or mass']"
+impactful,impact,NN,"['Noun, singular or mass']",impactful,JJ,['Adjective']
+practice,practic,JJ,['Adjective'],practice,NN,"['Noun, singular or mass']"
+contests,contest,NN,"['Noun, singular or mass']",contest,NN,"['Noun, singular or mass']"
+teaches,teach,NN,"['Noun, singular or mass']",teach,VBP,"['Verb, non-3rd person singular present']"
+narrative,narr,JJ,['Adjective'],narrative,JJ,['Adjective']
+sentence,sentenc,NN,"['Noun, singular or mass']",sentence,NN,"['Noun, singular or mass']"
+concluding,conclud,NN,"['Noun, singular or mass']",concluding,VBG,"['Verb, gerund or present participle']"
+explore,explor,NN,"['Noun, singular or mass']",explore,RB,['Adverb']
+lesson,lesson,NN,"['Noun, singular or mass']",lesson,JJ,['Adjective']
+details,detail,NN,"['Noun, singular or mass']",detail,NN,"['Noun, singular or mass']"
+provides,provid,NN,"['Noun, singular or mass']",provides,VBZ,"['Verb, 3rd person singular present']"
+potent,potent,NN,"['Noun, singular or mass']",potent,JJ,['Adjective']
+coherent,coher,NN,"['Noun, singular or mass']",coherent,NN,"['Noun, singular or mass']"
+words,word,NN,"['Noun, singular or mass']",word,NN,"['Noun, singular or mass']"
+contain,contain,NN,"['Noun, singular or mass']",contain,NN,"['Noun, singular or mass']"
+ultimately,ultim,JJ,['Adjective'],ultimately,RB,['Adverb']
+word,word,NN,"['Noun, singular or mass']",word,NN,"['Noun, singular or mass']"
+main,main,JJ,['Adjective'],main,JJ,['Adjective']
+approach,approach,NN,"['Noun, singular or mass']",approach,NN,"['Noun, singular or mass']"
+much,much,JJ,['Adjective'],much,JJ,['Adjective']
+supporting,support,NN,"['Noun, singular or mass']",supporting,VBG,"['Verb, gerund or present participle']"
+often,often,RB,['Adverb'],often,RB,['Adverb']
+sense,sens,VBZ,"['Verb, 3rd person singular present']",sense,JJ,['Adjective']
+precise,precis,JJ,['Adjective'],precise,JJ,['Adjective']
+complete,complet,NN,"['Noun, singular or mass']",complete,JJ,['Adjective']
+narrow,narrow,JJ,['Adjective'],narrow,NN,"['Noun, singular or mass']"
+strengthening,strengthen,NN,"['Noun, singular or mass']",strengthening,VBG,"['Verb, gerund or present participle']"
+followed,follow,VBP,"['Verb, non-3rd person singular present']",followed,VBD,"['Verb, past tense']"
+writer,writer,NN,"['Noun, singular or mass']",writer,JJ,['Adjective']
+requires,requir,NN,"['Noun, singular or mass']",requires,VBZ,"['Verb, 3rd person singular present']"
+structured,structur,NN,"['Noun, singular or mass']",structured,VBN,"['Verb, past participle']"
+rather,rather,RB,['Adverb'],rather,RB,['Adverb']
+unnecessary,unnecessari,JJ,['Adjective'],unnecessary,JJ,['Adjective']
+still,still,RB,['Adverb'],still,RB,['Adverb']
+focus,focu,VBP,"['Verb, non-3rd person singular present']",focus,VBP,"['Verb, non-3rd person singular present']"
+academic,academ,JJ,['Adjective'],academic,JJ,['Adjective']
+valuable,valuabl,NN,"['Noun, singular or mass']",valuable,JJ,['Adjective']
+works,work,NN,"['Noun, singular or mass']",work,NN,"['Noun, singular or mass']"
+cover,cover,RB,['Adverb'],cover,NN,"['Noun, singular or mass']"
+convey,convey,JJ,['Adjective'],convey,VB,"['Verb, base form']"
+trying,tri,JJ,['Adjective'],trying,VBG,"['Verb, gerund or present participle']"
+point,point,NN,"['Noun, singular or mass']",point,NN,"['Noun, singular or mass']"
+discipline,disciplin,NN,"['Noun, singular or mass']",discipline,NN,"['Noun, singular or mass']"
+serve,serv,VBD,"['Verb, past tense']",serve,VBP,"['Verb, non-3rd person singular present']"
+prioritizing,priorit,JJ,['Adjective'],prioritizing,VBG,"['Verb, gerund or present participle']"
+avoiding,avoid,NN,"['Noun, singular or mass']",avoiding,VBG,"['Verb, gerund or present participle']"
+settings,set,VBN,"['Verb, past participle']",setting,VBG,"['Verb, gerund or present participle']"
+clear,clear,JJ,['Adjective'],clear,JJ,['Adjective']
+honed,hone,NN,"['Noun, singular or mass']",honed,VBN,"['Verb, past participle']"
+brevity,breviti,NN,"['Noun, singular or mass']",brevity,NN,"['Noun, singular or mass']"
+purpose,purpos,NN,"['Noun, singular or mass']",purpose,NN,"['Noun, singular or mass']"

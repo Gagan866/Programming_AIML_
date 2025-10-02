@@ -1,91 +1,91 @@
-Word	POS Tag	Description
-complete	JJ	Adjective
-settings	NNS	Noun, plural
-piece	NN	Noun, singular or mass
-every	DT	Determiner
-approach	NN	Noun, singular or mass
-limiting	VBG	Verb, gerund or present participle
-often	RB	Adverb
-conciseness	JJ	Adjective
-contain	NN	Noun, singular or mass
-writing	VBG	Verb, gerund or present participle
-crafting	VBG	Verb, gerund or present participle
-compelling	NN	Noun, singular or mass
-exercises	NNS	Noun, plural
-writer	VBP	Verb, non-3rd person singular present
-potent	JJ	Adjective
-focus	NN	Noun, singular or mass
-finishing	VBG	Verb, gerund or present participle
-message	NN	Noun, singular or mass
-small	JJ	Adjective
-still	RB	Adverb
-ultimately	RB	Adverb
-communicates	VBZ	Verb, 3rd person singular present
-academic	JJ	Adjective
-followed	VBD	Verb, past tense
-explore	RB	Adverb
-rather	RB	Adverb
-honed	VBD	Verb, past tense
-strengthening	VBG	Verb, gerund or present participle
-expression	NN	Noun, singular or mass
-within	IN	Preposition or subordinating conjunction
-trying	VBG	Verb, gerund or present participle
-impactful	JJ	Adjective
-forcing	VBG	Verb, gerund or present participle
-thought	JJ	Adjective
-avoiding	VBG	Verb, gerund or present participle
-works	JJ	Adjective
-goal	NN	Noun, singular or mass
-count	NN	Noun, singular or mass
-valuable	JJ	Adjective
-words	NNS	Noun, plural
-paragraph	NN	Noun, singular or mass
-best	JJS	Adjective, superlative
-concluding	VBG	Verb, gerund or present participle
-unnecessary	JJ	Adjective
-sense	NN	Noun, singular or mass
-closure	NN	Noun, singular or mass
-teaches	NNS	Noun, plural
-polished	VBD	Verb, past tense
-lesson	JJ	Adjective
-select	JJ	Adjective
-powerful	JJ	Adjective
-essential	JJ	Adjective
-forward	NN	Noun, singular or mass
-contests	NNS	Noun, plural
-structured	VBD	Verb, past tense
-must	MD	Modal
-supporting	VBG	Verb, gerund or present participle
-cover	NN	Noun, singular or mass
-narrow	JJ	Adjective
-topic	NN	Noun, singular or mass
-requires	VBZ	Verb, 3rd person singular present
-manner	JJR	Adjective, comparative
-ground	JJ	Adjective
-serve	NN	Noun, singular or mass
-idea	NN	Noun, singular or mass
-effectively	RB	Adverb
-information	NN	Noun, singular or mass
-narrative	JJ	Adjective
-brevity	NN	Noun, singular or mass
-demonstrating	VBG	Verb, gerund or present participle
-choose	JJ	Adjective
-convey	NNS	Noun, plural
-fluff	RB	Adverb
-much	JJ	Adjective
-word	NN	Noun, singular or mass
-prioritizing	VBG	Verb, gerund or present participle
-practice	NN	Noun, singular or mass
-sentence	NN	Noun, singular or mass
-precise	NN	Noun, singular or mass
-purpose	JJ	Adjective
-discipline	NN	Noun, singular or mass
-provides	VBZ	Verb, 3rd person singular present
-create	VBP	Verb, non-3rd person singular present
-details	NNS	Noun, plural
-clear	JJ	Adjective
-driving	VBG	Verb, gerund or present participle
-main	JJ	Adjective
-starting	VBG	Verb, gerund or present participle
-coherent	NN	Noun, singular or mass
-point	NN	Noun, singular or mass
+Unique Word	Stemmed Word	POS Tag_Description	Lemmatized Word	POS Tag_Description
+exercises	exercis	Noun, singular or mass	exercise	Noun, singular or mass
+topic	topic	Noun, singular or mass	topic	Noun, singular or mass
+paragraph	paragraph	Noun, singular or mass	paragraph	Noun, singular or mass
+structured	structur	Noun, singular or mass	structured	Verb, past tense
+word	word	Noun, singular or mass	word	Noun, singular or mass
+create	creat	Noun, singular or mass	create	Noun, singular or mass
+teaches	teach	Verb, non-3rd person singular present	teach	Noun, singular or mass
+impactful	impact	Noun, singular or mass	impactful	Adjective
+honed	hone	Noun, singular or mass	honed	Verb, past participle
+ground	ground	Noun, singular or mass	ground	Noun, singular or mass
+unnecessary	unnecessari	Adjective	unnecessary	Adjective
+limiting	limit	Noun, singular or mass	limiting	Verb, gerund or present participle
+narrow	narrow	Adjective	narrow	Adjective
+contests	contest	Noun, singular or mass	contest	Noun, singular or mass
+potent	potent	Noun, singular or mass	potent	Noun, singular or mass
+trying	tri	Noun, singular or mass	trying	Verb, gerund or present participle
+must	must	Modal	must	Modal
+practice	practic	Verb, base form	practice	Noun, singular or mass
+followed	follow	Verb, base form	followed	Verb, past tense
+cover	cover	Noun, singular or mass	cover	Adverb
+crafting	craft	Noun, singular or mass	crafting	Verb, gerund or present participle
+closure	closur	Noun, singular or mass	closure	Noun, singular or mass
+requires	requir	Noun, singular or mass	requires	Verb, 3rd person singular present
+discipline	disciplin	Noun, singular or mass	discipline	Adjective
+explore	explor	Noun, singular or mass	explore	Adverb
+every	everi	Adjective	every	Determiner
+powerful	power	Noun, singular or mass	powerful	Adjective
+effectively	effect	Noun, singular or mass	effectively	Adverb
+clear	clear	Adjective	clear	Adjective
+choose	choos	Noun, singular or mass	choose	Verb, non-3rd person singular present
+prioritizing	priorit	Noun, singular or mass	prioritizing	Verb, gerund or present participle
+details	detail	Noun, singular or mass	detail	Noun, singular or mass
+rather	rather	Adverb	rather	Adverb
+lesson	lesson	Adjective	lesson	Adjective
+strengthening	strengthen	Verb, base form	strengthening	Verb, gerund or present participle
+communicates	commun	Adjective	communicates	Noun, plural
+complete	complet	Noun, singular or mass	complete	Adjective
+concluding	conclud	Noun, singular or mass	concluding	Verb, gerund or present participle
+words	word	Noun, singular or mass	word	Noun, singular or mass
+starting	start	Verb, base form	starting	Verb, gerund or present participle
+forward	forward	Adverb	forward	Adverb
+academic	academ	Noun, singular or mass	academic	Adjective
+settings	set	Noun, singular or mass	setting	Noun, singular or mass
+within	within	Preposition or subordinating conjunction	within	Preposition or subordinating conjunction
+provides	provid	Noun, singular or mass	provides	Verb, 3rd person singular present
+contain	contain	Noun, singular or mass	contain	Verb, non-3rd person singular present
+supporting	support	Noun, singular or mass	supporting	Verb, gerund or present participle
+focus	focu	Verb, past tense	focus	Noun, singular or mass
+avoiding	avoid	Adjective	avoiding	Verb, gerund or present participle
+point	point	Noun, singular or mass	point	Noun, singular or mass
+idea	idea	Noun, singular or mass	idea	Noun, singular or mass
+thought	thought	Verb, past tense	thought	Verb, past tense
+still	still	Adverb	still	Adverb
+coherent	coher	Adjective	coherent	Adjective
+brevity	breviti	Adjective	brevity	Noun, singular or mass
+goal	goal	Noun, singular or mass	goal	Noun, singular or mass
+valuable	valuabl	Noun, singular or mass	valuable	Adjective
+count	count	Noun, singular or mass	count	Noun, singular or mass
+purpose	purpos	Noun, singular or mass	purpose	Noun, singular or mass
+serve	serv	Noun, singular or mass	serve	Verb, non-3rd person singular present
+sense	sens	Verb, 3rd person singular present	sense	Noun, singular or mass
+writer	writer	Adjective	writer	Noun, singular or mass
+information	inform	Noun, singular or mass	information	Noun, singular or mass
+compelling	compel	Noun, singular or mass	compelling	Verb, gerund or present participle
+message	messag	Noun, singular or mass	message	Noun, singular or mass
+convey	convey	Noun, singular or mass	convey	Adjective
+essential	essenti	Verb, non-3rd person singular present	essential	Adjective
+precise	precis	Adjective	precise	Noun, singular or mass
+polished	polish	Adjective	polished	Verb, past tense
+manner	manner	Noun, singular or mass	manner	Noun, singular or mass
+driving	drive	Noun, singular or mass	driving	Verb, gerund or present participle
+much	much	Adjective	much	Adjective
+select	select	Noun, singular or mass	select	Noun, singular or mass
+works	work	Noun, singular or mass	work	Noun, singular or mass
+forcing	forc	Noun, singular or mass	forcing	Verb, gerund or present participle
+expression	express	Adverb, comparative	expression	Noun, singular or mass
+often	often	Adverb	often	Adverb
+approach	approach	Verb, 3rd person singular present	approach	Verb, 3rd person singular present
+ultimately	ultim	Adjective	ultimately	Adverb
+writing	write	Adjective	writing	Verb, gerund or present participle
+piece	piec	Noun, singular or mass	piece	Noun, singular or mass
+demonstrating	demonstr	Noun, singular or mass	demonstrating	Verb, gerund or present participle
+sentence	sentenc	Verb, non-3rd person singular present	sentence	Noun, singular or mass
+small	small	Adjective	small	Adjective
+conciseness	concis	Noun, singular or mass	conciseness	Noun, singular or mass
+fluff	fluff	Adjective	fluff	Noun, singular or mass
+finishing	finish	Adjective	finishing	Verb, gerund or present participle
+narrative	narr	Noun, singular or mass	narrative	Adjective
+main	main	Adjective	main	Adjective
+best	best	Adverb, superlative	best	Adjective, superlative

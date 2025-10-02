@@ -37,14 +37,8 @@ def preprocess_text(text):
     print("_"*40)
     print("Tokenization : \n",words)
     print("_"*40)
-
-    # Remove stopwords and stemming
-    # ps = PorterStemmer()
-    # processed_words = [ps.stem(word) for word in words if word not in STOPWORDS]
-    # print("_"*40)
-    # print("Processed words : \n",processed_words)
-    # print("_"*40)
     
+    # Remove stopwords
     return [word for word in words if word not in STOPWORDS]
 
 def generate_word_ngrams(words, n): 
@@ -64,40 +58,79 @@ def generate_char_ngrams(text, n):
     print(f"Generated character {n}-grams : \n",n_grams)
     print("_"*40)
 
-def lemmatize_word():
+def Stemmer(words):
     ps = PorterStemmer()
+    stemmed_words = [ps.stem(word) for word in words]
+    print("_"*40)
+    print("Stemmed words : \n",stemmed_words)
+    print("_"*40)
+    return stemmed_words
+
+def lemmatize_word(words):
     lemmatizer = WordNetLemmatizer()
-    words_pos = {"running": "v", "better": "a", "cats": "n", "studies": "n", "fairly": "r","studying": "v"}
-    for word, pos in words_pos.items():
-        stemmed_word = ps.stem(word)
-        lemmatized_word = lemmatizer.lemmatize(word, pos=pos)
-        print(f"Word: {word}, Stemmed: {stemmed_word}, Lemmatized: {lemmatized_word}")
+    lemmatized_words = [lemmatizer.lemmatize(word) for word in words]
+    print("_"*40)
+    print("Lemmatized words : \n",lemmatized_words)
+    print("_"*40)
+    return lemmatized_words
 
 def show_pos_tags(text):
     tokens = nltk.word_tokenize(text)
     pos_tags = nltk.pos_tag(tokens)
-    print("_"*40)   
+    print("_"*40)
     print("Part-of-Speech Tags : \n",pos_tags)
     print("_"*40)
     return pos_tags
 
-    
 
 def read_file(file_path):
     with open(file_path, 'r') as file:
         text = file.read()
     return text
 
-def write_file(file_path, pos_tags, df_postags):
+def find_pos_tag(word, pos_tags):
+    for w, tag in pos_tags:
+        if w == word:
+            return tag
+    return 'N/A'
+
+def write_file_txt(file_path, unique_words, stemmed_words, pos_tags_stemmed, lemmatized_words, pos_tags_lemmatized, df_postags):
     with open(file_path, 'w') as file:
-        file.write("Word\tPOS Tag\tDescription\n")
-        for word, tag in pos_tags:
-            desc_row = df_postags[df_postags['Tag'] == tag]
-            if not desc_row.empty:
-                description = desc_row.iloc[0]['Description']
-            else:
-                description = "N/A"
-            file.write(f"{word}\t{tag}\t{description}\n")
+        file.write("Unique Word\tStemmed Word\tPOS Tag_Description\tLemmatized Word\tPOS Tag_Description\n")
+        for i,word in enumerate(unique_words):
+            
+            stemmed = stemmed_words[i] 
+            pos_stemmed = find_pos_tag(stemmed, pos_tags_stemmed)
+
+            lemmatized = lemmatized_words[i]
+            pos_lemmatized = find_pos_tag(lemmatized, pos_tags_lemmatized)
+
+            description_stemmed = df_postags.loc[df_postags['Tag'] == pos_stemmed, 'Description'].values
+            description_stemmed = description_stemmed[0] if len(description_stemmed) > 0 else 'N/A'
+            description_lemmatized = df_postags.loc[df_postags['Tag'] == pos_lemmatized, 'Description'].values
+            description_lemmatized = description_lemmatized[0] if len(description_lemmatized) > 0 else 'N/A'
+            
+            file.write(f"{word}\t{stemmed}\t{description_stemmed}\t{lemmatized}\t{description_lemmatized}\n")
+
+def write_file_csv(file_path, unique_words, stemmed_words, pos_tags_stemmed, lemmatized_words, pos_tags_lemmatized, df_postags):
+    data = []
+    for i,word in enumerate(unique_words):
+        
+        stemmed = stemmed_words[i] 
+        pos_stemmed = find_pos_tag(stemmed, pos_tags_stemmed)
+
+        lemmatized = lemmatized_words[i]
+        pos_lemmatized = find_pos_tag(lemmatized, pos_tags_lemmatized)
+
+        description_stemmed = df_postags.loc[df_postags['Tag'] == pos_stemmed, 'Description'].values
+        description_stemmed = description_stemmed[0] if len(description_stemmed) > 0 else 'N/A'
+        description_lemmatized = df_postags.loc[df_postags['Tag'] == pos_lemmatized, 'Description'].values
+        description_lemmatized = description_lemmatized[0] if len(description_lemmatized) > 0 else 'N/A'
+        
+        data.append([word, stemmed, description_stemmed, lemmatized, description_lemmatized])
+    
+    df = pd.DataFrame(data, columns=["Unique Word", "Stemmed Word", "POS Tag_Description", "Lemmatized Word", "POS Tag_Description"])
+    df.to_csv(file_path, index=False)
 
 def read_csv_postags():
     df = pd.read_csv('NLP/TextFiles/pos_tags.csv')
@@ -127,9 +160,17 @@ def main():
     print("_"*40)
     print("Unique words after removing stopwords : \n",unique_words)
     print("_"*40)
-    post_tags = show_pos_tags(' '.join(unique_words))
+    
+    stemmed_words = Stemmer(unique_words)
+    lemmatized_words = lemmatize_word(unique_words)
+    
+    post_tags_stemmed = show_pos_tags(' '.join(stemmed_words))
+    post_tags_lemmatized = show_pos_tags(' '.join(lemmatized_words))
+    
     df_postags = read_csv_postags()
-    write_file('NLP/TextFiles/processed_text.txt', post_tags, df_postags)
+    
+    write_file_txt('NLP/TextFiles/processed_text.txt', unique_words, stemmed_words, post_tags_stemmed, lemmatized_words,post_tags_lemmatized, df_postags)
+    write_file_csv('NLP/TextFiles/processed_text.csv', unique_words, stemmed_words, post_tags_stemmed, lemmatized_words,post_tags_lemmatized, df_postags)
 
 if __name__ == "__main__":
     main()
