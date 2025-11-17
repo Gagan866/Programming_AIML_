@@ -1,0 +1,11 @@
+customer_id,age,gender,monthly_charges,total_charges,contract_type,tenure,internet_usage,customer_support_calls,churn
+C001,45,M,70,3010,Yearly,24,120,1,No
+C002,23,F,55,600,Monthly,6,80,3,Yes
+C003,31,M,40,1900,Yearly,48,200,0,No
+C004,52,F,90,4500,Two-Year,60,150,2,No
+C005,29,M,65,430,Monthly,4,50,4,Yes
+C006,37,F,78,800,Monthly,10,90,1,Yes
+C007,41,F,50,2400,Yearly,36,70,2,No
+C008,27,M,60,300,Monthly,3,40,5,Yes
+C009,58,F,85,5000,Two-Year,72,110,0,No
+C010,33,M,45,1100,Yearly,20,60,1,No
