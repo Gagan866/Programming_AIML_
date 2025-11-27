@@ -1,0 +1,222 @@
+HouseID,City,Location,HouseType,Area,Bedrooms,Bathrooms,Age,Parking,Price
+1,Bengaluru,Koramangala,2BHK,1120,2,2,8,1,8200000
+2,Delhi,Saket,3BHK,1580,3,2,12,1,12400000
+3,Mumbai,Andheri,2BHK,980,2,2,5,1,13600000
+4,Chennai,Velachery,1BHK,730,1,1,15,0,4200000
+5,Hyderabad,Banjara Hills,3BHK,1680,3,3,6,1,9800000
+6,Bengaluru,Whitefield,4BHK,2450,4,4,4,1,17900000
+7,Delhi,Rohini,2BHK,1020,2,2,10,0,7200000
+8,Mumbai,Bandra,3BHK,1780,3,3,3,1,22100000
+9,Chennai,Anna Nagar,2BHK,960,2,2,7,1,6300000
+10,Hyderabad,Gachibowli,1BHK,690,1,1,11,0,4100000
+11,Bengaluru,Indiranagar,3BHK,1650,3,3,6,1,14200000
+12,Delhi,Janakpuri,2BHK,1080,2,2,13,0,6900000
+13,Mumbai,Thane,2BHK,1010,2,2,9,1,8800000
+14,Chennai,Sholinganallur,1BHK,750,1,1,14,0,4000000
+15,Hyderabad,Madhapur,3BHK,1750,3,3,4,1,9500000
+16,Bengaluru,Electronic City,2BHK,1180,2,2,8,1,7700000
+17,Delhi,Dwarka,3BHK,1620,3,3,10,1,11700000
+18,Mumbai,Jogeshwari,1BHK,700,1,1,12,0,5500000
+19,Chennai,Perungudi,2BHK,940,2,2,7,1,6100000
+20,Hyderabad,Kondapur,1BHK,680,1,1,16,0,4200000
+21,Bengaluru,Koramangala,3BHK,1720,3,3,5,1,13800000
+22,Delhi,Saket,2BHK,1040,2,2,11,1,8200000
+23,Mumbai,Andheri,1BHK,650,1,1,14,0,5100000
+24,Chennai,Velachery,2BHK,960,2,2,6,1,6200000
+25,Hyderabad,Banjara Hills,4BHK,2550,4,4,3,1,18800000
+26,Bengaluru,Whitefield,3BHK,1680,3,3,7,1,13200000
+27,Delhi,Rohini,1BHK,720,1,1,17,0,3800000
+28,Mumbai,Bandra,2BHK,1140,2,2,8,1,16200000
+29,Chennai,Anna Nagar,3BHK,1540,3,3,9,1,9200000
+30,Hyderabad,Gachibowli,2BHK,1040,2,2,6,1,6800000
+31,Bengaluru,Indiranagar,4BHK,2400,4,4,4,1,19800000
+32,Delhi,Janakpuri,3BHK,1640,3,3,12,0,11200000
+33,Mumbai,Thane,1BHK,690,1,1,15,0,4700000
+34,Chennai,Sholinganallur,2BHK,980,2,2,10,1,6400000
+35,Hyderabad,Madhapur,4BHK,2450,4,4,3,1,17500000
+36,Bengaluru,Electronic City,1BHK,660,1,1,16,0,3600000
+37,Delhi,Dwarka,2BHK,1100,2,2,8,1,8800000
+38,Mumbai,Jogeshwari,3BHK,1600,3,3,5,1,14800000
+39,Chennai,Perungudi,1BHK,700,1,1,13,0,4100000
+40,Hyderabad,Kondapur,2BHK,990,2,2,9,1,6200000
+41,Bengaluru,Koramangala,1BHK,720,1,1,14,0,5000000
+42,Delhi,Saket,4BHK,2300,4,4,6,1,17500000
+43,Mumbai,Andheri,3BHK,1700,3,3,4,1,19800000
+44,Chennai,Velachery,3BHK,1480,3,3,10,1,8600000
+45,Hyderabad,Banjara Hills,1BHK,690,1,1,17,0,4500000
+46,Bengaluru,Whitefield,2BHK,1150,2,2,9,1,8200000
+47,Delhi,Rohini,3BHK,1580,3,3,11,1,10900000
+48,Mumbai,Bandra,4BHK,2500,4,4,3,1,25500000
+49,Chennai,Anna Nagar,1BHK,720,1,1,16,0,4300000
+50,Hyderabad,Gachibowli,3BHK,1650,3,3,7,1,9200000
+51,Bengaluru,Indiranagar,2BHK,1180,2,2,6,1,9000000
+52,Delhi,Janakpuri,1BHK,680,1,1,15,0,3600000
+53,Mumbai,Thane,3BHK,1620,3,3,8,1,14200000
+54,Chennai,Sholinganallur,4BHK,2400,4,4,4,1,16500000
+55,Hyderabad,Madhapur,2BHK,1130,2,2,9,1,7600000
+56,Bengaluru,Electronic City,3BHK,1600,3,3,6,1,11000000
+57,Delhi,Dwarka,1BHK,700,1,1,14,0,3900000
+58,Mumbai,Jogeshwari,2BHK,980,2,2,11,1,10800000
+59,Chennai,Perungudi,3BHK,1550,3,3,7,1,8900000
+60,Hyderabad,Kondapur,4BHK,2500,4,4,5,1,16000000
+61,Bengaluru,Koramangala,4BHK,2600,4,4,3,1,21000000
+62,Delhi,Saket,3BHK,1680,3,3,9,1,11800000
+63,Mumbai,Andheri,1BHK,720,1,1,12,0,5400000
+64,Chennai,Velachery,2BHK,1040,2,2,8,1,6500000
+65,Hyderabad,Banjara Hills,3BHK,1700,3,3,4,1,10500000
+66,Bengaluru,Whitefield,1BHK,700,1,1,15,0,4800000
+67,Delhi,Rohini,4BHK,2400,4,4,7,1,15500000
+68,Mumbai,Bandra,3BHK,1600,3,3,6,1,19900000
+69,Chennai,Anna Nagar,2BHK,950,2,2,11,1,6000000
+70,Hyderabad,Gachibowli,1BHK,680,1,1,16,0,4100000
+71,Bengaluru,Indiranagar,3BHK,1620,3,3,6,1,13000000
+72,Delhi,Janakpuri,2BHK,1000,2,2,10,0,7000000
+73,Mumbai,Thane,1BHK,680,1,1,15,0,4600000
+74,Chennai,Sholinganallur,3BHK,1500,3,3,8,1,8400000
+75,Hyderabad,Madhapur,1BHK,650,1,1,12,0,4200000
+76,Bengaluru,Electronic City,4BHK,2350,4,4,4,1,16500000
+77,Delhi,Dwarka,2BHK,1080,2,2,9,1,7800000
+78,Mumbai,Jogeshwari,4BHK,2450,4,4,5,1,21000000
+79,Chennai,Perungudi,2BHK,1020,2,2,7,1,6300000
+80,Hyderabad,Kondapur,3BHK,1600,3,3,6,1,8800000
+81,Bengaluru,Koramangala,2BHK,1150,2,2,10,1,8700000
+82,Delhi,Saket,1BHK,720,1,1,14,0,4200000
+83,Mumbai,Andheri,4BHK,2500,4,4,3,1,24000000
+84,Chennai,Velachery,1BHK,700,1,1,15,0,4100000
+85,Hyderabad,Banjara Hills,2BHK,1180,2,2,9,1,7200000
+86,Bengaluru,Whitefield,3BHK,1600,3,3,7,1,12000000
+87,Delhi,Rohini,3BHK,1550,3,3,11,1,10600000
+88,Mumbai,Bandra,2BHK,1120,2,2,8,1,15000000
+89,Chennai,Anna Nagar,4BHK,2450,4,4,4,1,16500000
+90,Hyderabad,Gachibowli,2BHK,1040,2,2,5,1,7000000
+91,Bengaluru,Indiranagar,1BHK,690,1,1,16,0,5200000
+92,Delhi,Janakpuri,4BHK,2350,4,4,6,1,15000000
+93,Mumbai,Thane,2BHK,1020,2,2,10,1,9000000
+94,Chennai,Sholinganallur,1BHK,730,1,1,14,0,4300000
+95,Hyderabad,Madhapur,3BHK,1600,3,3,6,1,9000000
+96,Bengaluru,Electronic City,2BHK,1180,2,2,7,1,8300000
+97,Delhi,Dwarka,3BHK,1650,3,3,8,1,11500000
+98,Mumbai,Jogeshwari,1BHK,680,1,1,15,0,4600000
+99,Chennai,Perungudi,4BHK,2400,4,4,4,1,16000000
+100,Hyderabad,Kondapur,2BHK,1020,2,2,9,1,6300000
+151,Bengaluru,Koramangala,3BHK,1680,3,3,7,1,13400000
+152,Delhi,Saket,2BHK,1040,2,2,9,1,8200000
+153,Mumbai,Andheri,1BHK,700,1,1,14,0,5200000
+154,Chennai,Velachery,3BHK,1520,3,3,8,1,8800000
+155,Hyderabad,Banjara Hills,4BHK,2480,4,4,4,1,18200000
+156,Bengaluru,Whitefield,2BHK,1150,2,2,10,1,8100000
+157,Delhi,Rohini,3BHK,1650,3,3,11,1,11000000
+158,Mumbai,Bandra,3BHK,1700,3,3,6,1,20500000
+159,Chennai,Anna Nagar,1BHK,720,1,1,15,0,4100000
+160,Hyderabad,Gachibowli,1BHK,680,1,1,16,0,4200000
+161,Bengaluru,Indiranagar,4BHK,2400,4,4,4,1,19500000
+162,Delhi,Janakpuri,2BHK,1100,2,2,10,0,7500000
+163,Mumbai,Thane,3BHK,1600,3,3,7,1,13800000
+164,Chennai,Sholinganallur,1BHK,740,1,1,13,0,4200000
+165,Hyderabad,Madhapur,2BHK,1130,2,2,9,1,7600000
+166,Bengaluru,Electronic City,3BHK,1620,3,3,6,1,11200000
+167,Delhi,Dwarka,1BHK,700,1,1,15,0,3900000
+168,Mumbai,Jogeshwari,2BHK,980,2,2,10,1,10500000
+169,Chennai,Perungudi,3BHK,1520,3,3,8,1,8600000
+170,Hyderabad,Kondapur,4BHK,2500,4,4,5,1,16000000
+171,Bengaluru,Koramangala,2BHK,1120,2,2,10,1,8200000
+172,Delhi,Saket,4BHK,2320,4,4,6,1,17800000
+173,Mumbai,Andheri,3BHK,1720,3,3,5,1,20000000
+174,Chennai,Velachery,1BHK,700,1,1,16,0,4000000
+175,Hyderabad,Banjara Hills,2BHK,1180,2,2,9,1,7400000
+176,Bengaluru,Whitefield,3BHK,1650,3,3,7,1,12800000
+177,Delhi,Rohini,2BHK,1040,2,2,12,0,7200000
+178,Mumbai,Bandra,1BHK,690,1,1,14,0,5200000
+179,Chennai,Anna Nagar,3BHK,1560,3,3,9,1,9000000
+180,Hyderabad,Gachibowli,2BHK,1000,2,2,8,1,6600000
+181,Bengaluru,Indiranagar,1BHK,700,1,1,15,0,5100000
+182,Delhi,Janakpuri,3BHK,1600,3,3,11,1,10800000
+183,Mumbai,Thane,1BHK,680,1,1,16,0,4500000
+184,Chennai,Sholinganallur,3BHK,1500,3,3,8,1,8400000
+185,Hyderabad,Madhapur,4BHK,2450,4,4,3,1,17500000
+186,Bengaluru,Electronic City,2BHK,1170,2,2,7,1,8000000
+187,Delhi,Dwarka,4BHK,2380,4,4,5,1,15200000
+188,Mumbai,Jogeshwari,3BHK,1600,3,3,5,1,14800000
+189,Chennai,Perungudi,2BHK,1000,2,2,10,1,6000000
+190,Hyderabad,Kondapur,3BHK,1580,3,3,6,1,8700000
+191,Bengaluru,Koramangala,4BHK,2550,4,4,4,1,20500000
+192,Delhi,Saket,3BHK,1680,3,3,9,1,11800000
+193,Mumbai,Andheri,1BHK,710,1,1,13,0,5300000
+194,Chennai,Velachery,2BHK,1040,2,2,8,1,6300000
+195,Hyderabad,Banjara Hills,3BHK,1700,3,3,4,1,10400000
+196,Bengaluru,Whitefield,1BHK,690,1,1,15,0,4700000
+197,Delhi,Rohini,3BHK,1550,3,3,11,1,10500000
+198,Mumbai,Bandra,2BHK,1120,2,2,8,1,15000000
+199,Chennai,Anna Nagar,4BHK,2420,4,4,4,1,16500000
+200,Hyderabad,Gachibowli,2BHK,1020,2,2,7,1,6900000
+201,Bengaluru,Indiranagar,2BHK,1160,2,2,6,1,8800000
+202,Delhi,Janakpuri,1BHK,670,1,1,15,0,3500000
+203,Mumbai,Thane,3BHK,1620,3,3,8,1,14000000
+204,Chennai,Sholinganallur,4BHK,2380,4,4,4,1,16400000
+205,Hyderabad,Madhapur,3BHK,1600,3,3,6,1,8900000
+206,Bengaluru,Electronic City,2BHK,1180,2,2,8,1,8200000
+207,Delhi,Dwarka,3BHK,1640,3,3,7,1,11400000
+208,Mumbai,Jogeshwari,1BHK,690,1,1,16,0,4600000
+209,Chennai,Perungudi,4BHK,2390,4,4,5,1,15800000
+210,Hyderabad,Kondapur,2BHK,1000,2,2,9,1,6200000
+211,Bengaluru,Koramangala,3BHK,1650,3,3,6,1,13000000
+212,Delhi,Saket,2BHK,1050,2,2,11,1,8100000
+213,Mumbai,Andheri,1BHK,690,1,1,15,0,5000000
+214,Chennai,Velachery,3BHK,1500,3,3,9,1,8500000
+215,Hyderabad,Banjara Hills,1BHK,700,1,1,17,0,4500000
+216,Bengaluru,Whitefield,2BHK,1150,2,2,10,1,8100000
+217,Delhi,Rohini,4BHK,2400,4,4,6,1,15500000
+218,Mumbai,Bandra,3BHK,1680,3,3,7,1,21000000
+219,Chennai,Anna Nagar,1BHK,690,1,1,16,0,4200000
+220,Hyderabad,Gachibowli,3BHK,1620,3,3,6,1,8900000
+221,Bengaluru,Indiranagar,4BHK,2420,4,4,4,1,19200000
+222,Delhi,Janakpuri,3BHK,1600,3,3,11,1,10800000
+223,Mumbai,Thane,1BHK,680,1,1,14,0,4500000
+224,Chennai,Sholinganallur,2BHK,980,2,2,9,1,6200000
+225,Hyderabad,Madhapur,4BHK,2450,4,4,5,1,17500000
+226,Bengaluru,Electronic City,3BHK,1600,3,3,7,1,11000000
+227,Delhi,Dwarka,1BHK,700,1,1,15,0,3800000
+228,Mumbai,Jogeshwari,2BHK,980,2,2,10,1,10500000
+229,Chennai,Perungudi,3BHK,1500,3,3,8,1,8400000
+230,Hyderabad,Kondapur,4BHK,2520,4,4,4,1,15900000
+231,Bengaluru,Koramangala,2BHK,1120,2,2,11,1,8100000
+232,Delhi,Saket,4BHK,2340,4,4,6,1,17600000
+233,Mumbai,Andheri,3BHK,1700,3,3,6,1,19800000
+234,Chennai,Velachery,1BHK,720,1,1,15,0,4100000
+235,Hyderabad,Banjara Hills,2BHK,1160,2,2,9,1,7300000
+236,Bengaluru,Whitefield,3BHK,1650,3,3,7,1,12500000
+237,Delhi,Rohini,2BHK,1030,2,2,11,0,7000000
+238,Mumbai,Bandra,1BHK,690,1,1,14,0,5300000
+239,Chennai,Anna Nagar,3BHK,1580,3,3,8,1,9100000
+240,Hyderabad,Gachibowli,2BHK,1020,2,2,9,1,6300000
+241,Bengaluru,Indiranagar,1BHK,700,1,1,16,0,5200000
+242,Delhi,Janakpuri,3BHK,1600,3,3,11,1,11000000
+243,Mumbai,Thane,1BHK,690,1,1,15,0,4600000
+244,Chennai,Sholinganallur,3BHK,1500,3,3,9,1,8300000
+245,Hyderabad,Madhapur,4BHK,2450,4,4,4,1,17400000
+246,Bengaluru,Electronic City,2BHK,1180,2,2,7,1,8400000
+247,Delhi,Dwarka,3BHK,1640,3,3,7,1,11400000
+248,Mumbai,Jogeshwari,1BHK,680,1,1,16,0,4600000
+249,Chennai,Perungudi,4BHK,2400,4,4,4,1,16000000
+250,Hyderabad,Kondapur,2BHK,1020,2,2,9,1,6300000
+251,Bengaluru,Koramangala,3BHK,1680,3,3,6,1,13200000
+252,Delhi,Saket,2BHK,1040,2,2,10,1,8200000
+253,Mumbai,Andheri,1BHK,700,1,1,14,0,5200000
+254,Chennai,Velachery,3BHK,1500,3,3,8,1,8500000
+255,Hyderabad,Banjara Hills,4BHK,2480,4,4,5,1,18000000
+256,Bengaluru,Whitefield,2BHK,1150,2,2,10,1,8100000
+257,Delhi,Rohini,3BHK,1650,3,3,11,1,10900000
+258,Mumbai,Bandra,3BHK,1700,3,3,7,1,20500000
+259,Chennai,Anna Nagar,1BHK,720,1,1,15,0,4100000
+260,Hyderabad,Gachibowli,1BHK,680,1,1,16,0,4200000
+261,Bengaluru,Indiranagar,4BHK,2400,4,4,4,1,19500000
+262,Delhi,Janakpuri,2BHK,1100,2,2,10,0,7500000
+263,Mumbai,Thane,3BHK,1600,3,3,7,1,13800000
+264,Chennai,Sholinganallur,1BHK,740,1,1,14,0,4300000
+265,Hyderabad,Madhapur,2BHK,1130,2,2,9,1,7600000
+266,Bengaluru,Electronic City,3BHK,1620,3,3,6,1,11200000
+267,Delhi,Dwarka,1BHK,700,1,1,15,0,3900000
+268,Mumbai,Jogeshwari,2BHK,980,2,2,10,1,10500000
+269,Chennai,Perungudi,3BHK,1520,3,3,8,1,8600000
+270,Hyderabad,Kondapur,4BHK,2500,4,4,5,1,16000000
+

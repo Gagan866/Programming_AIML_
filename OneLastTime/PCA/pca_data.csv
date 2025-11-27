@@ -1,0 +1,16 @@
+EmployeeID,Age,Gender,EducationLevel,ExperienceYears,Department,MonthlyIncome,JobSatisfaction,WorkLifeBalance,OvertimeHours,ProjectsHandled,PerformanceScore
+1,24,Male,Bachelors,1,Sales,32000,3,4,12,2,3.1
+2,31,Female,Masters,6,Tech,67000,4,3,10,4,4.2
+3,28,Male,Bachelors,3,HR,45000,2,3,8,3,2.9
+4,45,Female,PhD,20,Finance,120000,5,4,6,6,4.8
+5,26,Male,Masters,2,Tech,52000,3,2,15,4,3.5
+6,34,Female,Bachelors,8,Sales,58000,4,3,7,5,3.9
+7,29,Male,Masters,4,Tech,70000,3,4,10,4,3.7
+8,40,Male,PhD,15,Finance,115000,5,4,5,6,4.6
+9,27,Female,Bachelors,3,HR,42000,2,3,9,3,2.8
+10,38,Male,Masters,12,Sales,76000,4,3,11,5,4.0
+11,30,Female,Bachelors,5,Tech,60000,3,3,8,4,3.4
+12,35,Male,Masters,9,Finance,90000,4,2,7,5,3.9
+13,41,Female,PhD,17,Tech,105000,5,4,6,6,4.7
+14,29,Male,Bachelors,4,HR,48000,3,3,10,3,3.0
+15,37,Female,Masters,11,Sales,82000,4,3,9,4,4.1

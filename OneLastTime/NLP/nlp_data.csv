@@ -1,0 +1,21 @@
+Review,Sentiment
+"I love this product! Works perfectly and arrived fast.",Positive
+"Terrible quality. Broke within two days. Not recommended.",Negative
+"Item is okay, not too good, not too bad.",Neutral
+"Fantastic build and excellent features. Totally worth it.",Positive
+"Very disappointed. It stopped working after a week.",Negative
+"Great purchase. Would definitely buy again.",Positive
+"Average product. Expected something better.",Neutral
+"Horrible customer service. Will never order again.",Negative
+"Superb quality! Highly satisfied with the performance.",Positive
+"The color was slightly different than shown. It's fine.",Neutral
+"I got a defective piece. Extremely unhappy.",Negative
+"The product is amazing. Exceeded my expectations!",Positive
+"Nothing special. Just an ordinary item.",Neutral
+"Absolutely terrible. Waste of money.",Negative
+"Perfect for daily use. Highly recommended.",Positive
+"Packaging was good, delivery was slow.",Neutral
+"Returned it the same day. Very poor experience.",Negative
+"Excellent! Loved every bit of it.",Positive
+"Meh… it’s acceptable I guess.",Neutral
+"Doesn't work. Total disappointment.",Negative
